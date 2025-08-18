@@ -2,8 +2,8 @@
 public class TaskTen {
 
 public static int []  InMinimumMaximum(int [] array){
-int maximum = array[0];
-int minimum = array[0];
+int largest= array[0];
+int smallest = array[0];
 
 for(int count = 1; count < array.length; count++){
 if(array[count] > largest){
